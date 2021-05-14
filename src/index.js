@@ -31,14 +31,15 @@ const JSX2 = (
   );
   ReactDOM.render(JSX2, document.getElementById("root"));
 
-/*
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-*/
+  /* FCC - Define an HTML Class in JSX */
+  const JSX3 = (
+    <div className="myDiv">
+      <h1>Add a class to this div</h1>
+    </div>
+  );
+  ReactDOM.render(JSX3, document.getElementById("root"));
+
+  /* FCC - Learn About Self-Closing JSX Tags */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
