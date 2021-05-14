@@ -19,6 +19,7 @@ ReactDOM.render(JSX, document.getElementById("root"));
 /* FCC - Create a Complex JSX Element */
 const JSX2 = (
   <div>
+    {/* this is a comment */}
     <h1>Paragraph One</h1>
     <p>Paragraph Two</p>
     <ul>
