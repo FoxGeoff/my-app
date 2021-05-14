@@ -9,7 +9,7 @@ var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world
 ReactDOM.render(element, document.getElementById('root'));
 
 /* FCC - Create a Simple JSX Element */
-const JSX = <h1>Hello JSX</h1>
+const JSX = <h1>Hello JSX!</h1>
 ReactDOM.render(JSX, document.getElementById('root'))
 
 
