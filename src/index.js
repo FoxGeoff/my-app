@@ -28,28 +28,29 @@ const JSX2 = (
       <li>List item 3</li>
     </ul>
   </div>
-  );
-  ReactDOM.render(JSX2, document.getElementById("root"));
+);
+ReactDOM.render(JSX2, document.getElementById("root"));
 
-  /* FCC - Define an HTML Class in JSX */
-  const JSX3 = (
-    <div className="myDiv">
-      <h1>Add a class to this div</h1>
-    </div>
-  );
-  ReactDOM.render(JSX3, document.getElementById("root"));
+/* FCC - Define an HTML Class in JSX */
+const JSX3 = (
+  <div className="myDiv">
+    <h1>Add a class to this div</h1>
+  </div>
+);
+ReactDOM.render(JSX3, document.getElementById("root"));
 
-  /* FCC - Learn About Self-Closing JSX Tags */
+/* FCC - Learn About Self-Closing JSX Tags */
 
-  const JSX4 = (
-    <div>
-      <h2>Welcome to React!</h2> <br />
-      <p>Be sure to close all tags!</p>
-      <hr />
-    </div>
-  );
-  ReactDOM.render(JSX4, document.getElementById("root"));
+const JSX4 = (
+  <div>
+    <h2>Welcome to React!</h2> <br />
+    <p>Be sure to close all tags!</p>
+    <hr />
+  </div>
+);
+ReactDOM.render(JSX4, document.getElementById("root"));
 
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
