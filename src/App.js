@@ -9,9 +9,9 @@ function App() {
        <h1>Hi , I'm a React App!</h1>
        <p>This is really working!</p>
        <button>Switch Name</button>
-       <Person />
-       <Person />
-       <Person />
+       <Person name="Jack" age="30"/>
+       <Person name="Jane" age="20"> - I like to run</Person>
+       <Person name="Fred" age="24"/>
     </div>
   );
 }
